@@ -1,5 +1,5 @@
 # This -*- perl -*- script writes the Makefile for strict::ModuleName
-# Time-stamp: "2002-02-07 02:13:55 MST"
+# Time-stamp: "2002-08-27 20:18:13 MDT"
 # See lib/ExtUtils/MakeMaker.pm for details of how to influence
 # the contents of the Makefile that is written.
 require 5.004;
@@ -9,6 +9,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'	=> 'strict::ModuleName',
     'VERSION_FROM' => 'ModuleName.pm', # finds $VERSION
+    'ABSTRACT_FROM' => 'ModuleName.pm',
     'dist'        => { COMPRESS => 'gzip -6f', SUFFIX => 'gz', },
 );
 

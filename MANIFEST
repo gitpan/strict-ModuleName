@@ -1,6 +1,6 @@
 ChangeLog
 MANIFEST
-Makefile
+MANIFEST.SKIP
 Makefile.PL
 ModuleName.pm
 README

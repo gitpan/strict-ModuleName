@@ -1,5 +1,5 @@
 README for strict::ModuleName
-                                        Time-stamp: "2002-02-07 02:12:08 MST"
+                                        Time-stamp: "2003-07-20 06:33:20 ADT"
 
 			  strict::ModuleName
 
@@ -48,14 +48,8 @@ DESCRIPTION
 NOTES
     Maybe this module should just warn() more instead of die()ing?
 
-CAVEAT
-    I consider this current version an alpha, and its interface is not yet
-    settled upon. Do email me if you have any opinions about how it works.
-    If I receive no feedback, I'll just rerelease it as the final version
-    after a while.
-
 COPYRIGHT
-    Copyright (c) 2002 Sean M. Burke. All rights reserved.
+    Copyright (c) 2002,2003 Sean M. Burke. All rights reserved.
 
     This library is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
@@ -89,6 +83,8 @@ home directory, then you should try to produce the initial Makefile
 with something like this command:
 
   perl Makefile.PL LIB=~/perl
+
+See perldoc perlmodinstall for more information.
 
 
 DOCUMENTATION

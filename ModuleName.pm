@@ -1,7 +1,7 @@
 
 require 5;
 package strict::ModuleName;     # Pod at end
-$VERSION = '0.03';
+$VERSION = '0.04';
 use strict;
 BEGIN { *DEBUG = sub () {0} unless defined &DEBUG }
 use vars qw($DIE);
@@ -157,16 +157,9 @@ the filename which the current source is being read from.
 
 Maybe this module should just warn() more instead of die()ing?
 
-=head1 CAVEAT
-
-I consider this current version an alpha, and its interface is not yet
-settled upon.  Do email me if you have any opinions about how it works.
-If I receive no feedback, I'll just rerelease it as the final version
-after a while.
-
 =head1 COPYRIGHT
 
-Copyright (c) 2002 Sean M. Burke.  All rights reserved.
+Copyright (c) 2002,2003 Sean M. Burke.  All rights reserved.
 
 This library is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
